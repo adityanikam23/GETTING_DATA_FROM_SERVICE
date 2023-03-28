@@ -1,0 +1,24 @@
+<h1>employees works!</h1>
+
+<div class="maindiv">
+    <table>
+        <thead>
+            <tr>
+                <th>sr no</th>
+                <th>first name</th>
+                <th>last name</th>
+                <th>email id</th>
+                <th>employee id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employees">
+                <td>{{employee.srno}}</td>
+                <td>{{employee.first}}</td>
+                <td>{{employee.last}}</td>
+                <td>{{employee.email}}</td>
+                <td>{{employee.empid}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
